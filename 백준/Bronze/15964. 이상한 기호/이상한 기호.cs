@@ -1,5 +1,5 @@
 string[] input = Console.ReadLine().Split();
-int A = int.Parse(input[0]);
-int B = int.Parse(input[1]);
-int R = (A + B) * (A - B);
+long A = long.Parse(input[0]);
+long B = long.Parse(input[1]);
+long R = (A + B) * (A - B);
 Console.WriteLine(R);
