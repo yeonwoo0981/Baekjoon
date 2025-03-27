@@ -1,0 +1,13 @@
+int x = int.Parse(Console.ReadLine());
+int y = int.Parse(Console.ReadLine());
+int ill = y % 10;
+int ship = (y / 10) % 10;
+int baek = y / 100;
+int line1 = x * ill;
+int line2 = x * ship;
+int line3 = x * baek;
+int result = x * y;
+Console.WriteLine(line1);
+Console.WriteLine(line2);
+Console.WriteLine(line3);
+Console.WriteLine(result);
