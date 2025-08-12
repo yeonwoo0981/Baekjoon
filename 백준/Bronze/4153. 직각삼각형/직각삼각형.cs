@@ -16,9 +16,6 @@ while (true)
     
     int smallAngle = secNum * secNum + smallNum * smallNum;
     int bigAngle = bigNum * bigNum;
-    
-    if (smallAngle == bigAngle)
-        Console.WriteLine("right");
-    else
-        Console.WriteLine("wrong");
+
+    Console.WriteLine(smallAngle == bigAngle ? "right" : "wrong");
 }
